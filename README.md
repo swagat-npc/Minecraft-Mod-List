@@ -12,6 +12,35 @@ Currently this includes the following Minecraft Versions:
 
 ---
 
+### 🚀 Running Locally
+
+This project uses a simple `Node.js` server to avoid `CORS` issues when fetching `JSON` files.
+
+#### Requirements
+- Node.js installed
+- (First time only) Install http-server:
+
+```bash
+npm install -g http-server
+```
+
+#### Running the project
+- Open terminal in the project folder
+- Run:
+  ```bash
+  npm start
+  ```
+- Open your browser and navigate to:
+  ```arduino
+  http://localhost:8000/
+  ```
+
+####  Notes
+- You must use a local server to fetch JSON (`mods.json`) properly.
+- Opening `index.html` directly with `file://` will NOT work due to CORS restrictions.
+
+---
+
 ### 📦 Project Structure
 
 - `mod-list.js` → Main logic to load and display mods/resource/shader packs.
