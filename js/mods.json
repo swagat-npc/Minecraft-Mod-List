@@ -1,0 +1,229 @@
+{
+  "modList": [
+    {
+      "name": "Advancements Enlarger",
+      "curseforge": "advancements-enlarger",
+      "files": [
+        { "version": "1.20.1", "cf": "4594641" }
+      ]
+    },
+    {
+      "name": "Apple Skin",
+      "curseforge": "appleskin",
+      "modrinth": "appleskin",
+      "files": [
+        { "version": "1.21.4", "cf": "5864742", "mr": "cHQjeYVS" },
+        { "version": "1.21.5", "cf": "6385817", "mr": "VfjnbBAT" }
+      ]
+    },
+    {
+      "name": "Better Dropped Items",
+      "curseforge": "better-dropped-items",
+      "files": [
+        { "version": "1.19.1", "cf": "3876302" }
+      ]
+    },
+    {
+      "name": "Better F3",
+      "curseforge": "betterf3",
+      "files": [
+        { "version": "1.21.4", "cf": "5970183" },
+        { "version": "1.21.5", "cf": "6364905" }
+      ]
+    },
+    {
+      "name": "Better Third Person",
+      "curseforge": "better-third-person",
+      "files": [
+        { "version": "1.21.4", "cf": "5965867" },
+        { "version": "1.21.5", "cf": "6455829" }
+      ]
+    },
+    {
+      "name": "Block Meter",
+      "curseforge": "blockmeterfabric",
+      "files": [
+        { "version": "1.21.4", "cf": "5930480" },
+        { "version": "1.21.5", "cf": "6364610" }
+      ]
+    },
+    {
+      "name": "Click Through Signs",
+      "curseforge": "clickthrough",
+      "files": [
+        { "version": "1.20.4", "cf": "4963284" }
+      ]
+    },
+    {
+      "name": "Dynamic FPS",
+      "curseforge": "dynamic-fps",
+      "files": [
+        { "version": "1.21.4", "cf": "6274436" },
+        { "version": "1.21.5", "cf": "6415798" }
+      ]
+    },
+    {
+      "name": "Dynamic Lights",
+      "curseforge": "lambdynamiclights",
+      "modrinth": "lambdynamiclights",
+      "files": [
+        { "version": "1.21.4", "cf": "6320359", "mr": "4.2.6+1.21.5" },
+        { "version": "1.21.5", "cf": "6444619", "mr": "4.2.6+1.21.5" }
+      ]
+    },
+    {
+      "name": "Easier Village Trading",
+      "curseforge": "easiervillagertrading",
+      "files": [
+        { "version": "1.20.4", "cf": "4963302" }
+      ]
+    },
+    {
+      "name": "Fabric API",
+      "curseforge": "fabric-api",
+      "files": [
+        { "version": "1.21.4", "cf": "6321704" },
+        { "version": "1.21.5", "cf": "6443810" }
+      ]
+    },
+    {
+      "name": "Grid",
+      "curseforge": "grid",
+      "files": [
+        { "version": "1.20.4", "cf": "4963321" }
+      ]
+    },
+    {
+      "name": "Iris Shaders",
+      "curseforge": "irisshaders",
+      "modrinth": "iris",
+      "files": [
+        { "version": "1.21.4", "cf": "6213644", "mr": "1.8.8+1.21.4-fabric" },
+        { "version": "1.21.5", "cf": "6369436", "mr": "1.8.11+1.21.5-fabric" }
+      ]
+    },
+    {
+      "name": "Just Enough Items (JEI)",
+      "curseforge": "jei",
+      "files": [
+        { "version": "1.21.1", "cf": "5846878" }
+      ]
+    },
+    {
+      "name": "Litematica",
+      "curseforge": "litematica",
+      "modrinth": "litematica",
+      "files": [
+        { "version": "1.21.1", "cf": "5647809" },
+        { "version": "1.21.4", "mr": "0.21.2" },
+        { "version": "1.21.5", "mr": "0.22.0" }
+      ]
+    },
+    {
+      "name": "Lithium",
+      "curseforge": "lithium",
+      "modrinth": "lithium",
+      "files": [
+        { "version": "1.21.1", "cf": "6290416" },
+        { "version": "1.21.4", "mr": "mc1.21.4-0.15.0-fabric" },
+        { "version": "1.21.5", "cf": "6401322", "mr": "mc1.21.5-0.16.2-fabric" }
+      ]
+    },
+    {
+      "name": "MaLiLib",
+      "curseforge": "malilib",
+      "modrinth": "malilib",
+      "files": [
+        { "version": "1.21.1", "cf": "5647783" },
+        { "version": "1.21.4", "mr": "0.23.2" },
+        { "version": "1.21.5", "mr": "0.60.2" }
+      ]
+    },
+    {
+      "name": "MiniHUD",
+      "curseforge": "minihud",
+      "modrinth": "minihud",
+      "files": [
+        { "version": "1.21.1", "cf": "5647790" },
+        { "version": "1.21.4", "mr": "0.34.4" },
+        { "version": "1.21.5", "mr": "0.35.0" }
+      ]
+    },
+    {
+      "name": "Mod Menu",
+      "curseforge": "modmenu",
+      "modrinth": "modmenu",
+      "files": [
+        { "version": "1.21.4", "cf": "6293895", "mr": "13.0.3" },
+        { "version": "1.21.5", "cf": "6347337", "mr": "14.0.0-rc.2" }
+      ]
+    },
+    {
+      "name": "Not Enough Crashes",
+      "curseforge": "not-enough-crashes",
+      "files": [
+        { "version": "1.21.4", "cf": "6111175" },
+        { "version": "1.21.5", "cf": "6466466" }
+      ]
+    },
+    {
+      "name": "Sodium",
+      "curseforge": "sodium",
+      "modrinth": "sodium",
+      "files": [
+        { "version": "1.21.4", "cf": "6240355", "mr": "mc1.21.4-0.6.10-fabric" },
+        { "version": "1.21.5", "cf": "6382664", "mr": "mc1.21.5-0.6.13-fabric" }
+      ]
+    },
+    {
+      "name": "Tweakeroo",
+      "curseforge": "tweakeroo",
+      "modrinth": "tweakeroo",
+      "files": [
+        { "version": "1.21.1", "cf": "5647797" },
+        { "version": "1.21.4", "mr": "0.23.2" },
+        { "version": "1.21.5", "mr": "0.24.0" }
+      ]
+    },
+    {
+      "name": "WorldEdit",
+      "curseforge": "worldedit",
+      "modrinth": "worldedit",
+      "files": [
+        { "version": "1.21.4", "cf": "6122278", "mr": "7.3.10" },
+        { "version": "1.21.5", "cf": "6451011", "mr": "7.3.12-beta-02" }
+      ]
+    },
+    {
+      "name": "WorldEdit CUI",
+      "curseforge": "worldeditcui-fabric",
+      "files": [
+        { "version": "1.20.4", "cf": "4931021" }
+      ]
+    }
+  ],
+  "resourcePacks": [
+    {
+      "name": "Enchanted Books",
+      "curseforge": "xalis-enchanted-books",
+      "files": [
+        { "version": "1.21.4", "cf": "5680199" },
+        { "version": "1.21.5", "cf": "6365331" }
+      ]
+    }
+  ],
+  "shaderPacks": [
+    {
+      "name": "Complementary Shader",
+      "curseforge": "complementary-unbound",
+      "files": [
+        { "version": "1.21.4", "cf": "6137622" },
+        { "version": "1.21.5", "cf": "6137622" }
+      ]
+    }
+  ],
+  "banners": {
+    "1.21.4": "banner-1214.jpg",
+    "1.21.5": "banner-1215.jpg"
+  }
+}
