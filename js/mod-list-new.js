@@ -93,6 +93,35 @@ const generatePacks = (type, packs, version) => {
   });
 };
 
+// Generate additional external links section
+const generateAdditionalLinks = () => {
+  clearContainer("additional-links");
+  
+  fetch('./js/additional-links.json')
+    .then(res => res.json())
+    .then(data => {
+      const links = data.additionalLinks;
+
+      links.forEach((entry) => {
+        const name = generateElement("div", "col-6 mod-name", entry.name);
+        const linkContainer = generateElement("div", "col-6 mod-link");
+
+        entry.links.forEach((link, index) => {
+          linkContainer.append(
+            generateElement("a", "", link.title).attr({ target: "_blank", href: link.url })
+          );
+          if (index < entry.links.length - 1) {
+            linkContainer.append($("<br/>"));
+          }
+        });
+
+        const row = buildRow(name, linkContainer);
+        $("#additional-links").append(row);
+      });
+    })
+    .catch(err => console.error("Failed to load additional-links.json", err));  
+};
+
 // --- Handle version change ---
 const changeVersion = (version) => {
   const banner = masterData.banners[version] || "banner.png";
@@ -165,6 +194,7 @@ $(() => {
       });
 
       changeVersion(currentVersion);
+      generateAdditionalLinks();
     })
     .catch(err => console.error("Failed to load mods.json", err));
 });

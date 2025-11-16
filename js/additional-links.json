@@ -1,157 +1,159 @@
-additional_links = [
-  {
-    "name": "Fabric Installer",
-    "links": [
-      {
-        "title": "Download Link",
-        "url": "https://fabricmc.net/use/"
-      }
-    ]
-  },
-  {
-    "name": "Optifine",
-    "links": [
-      {
-        "title": "Download Link",
-        "url": "https://www.optifine.net/downloads"
-      }
-    ]
-  },
-  {
-    "name": "Server JAR",
-    "links": [
-      {
-        "title": "Download Link",
-        "url": "https://www.minecraft.net/en-us/download/server"
-      }
-    ]
-  },
-  {
-    "name": "Vanilla Tweaks",
-    "links": [
-      {
-        "title": "Resource Packs",
-        "url": "https://vanillatweaks.net/picker/resource-packs/"
-      },
-      {
-        "title": "Data Packs",
-        "url": "https://vanillatweaks.net/picker/datapacks/"
-      },
-      {
-        "title": "Crafting Tweaks",
-        "url": "https://vanillatweaks.net/picker/crafting-tweaks/"
-      }
-    ]
-  },
-  {
-    "name": "Create Mod",
-    "links": [
-      {
-        "title": "View Link",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/create-fabric"
-      },
-    ]
-  },
-  {
-    "name": "Command Generation",
-    "links": [
-      {
-        "title": "Give Armour",
-        "url": "https://www.digminecraft.com/generators/give_armor.php"
-      },
-      {
-        "title": "Give Weapons",
-        "url": "https://www.digminecraft.com/generators/give_weapon.php"
-      },
-      {
-        "title": "Give Tools",
-        "url": "https://www.digminecraft.com/generators/give_tool.php"
-      },
-      {
-        "title": "Summon Mobs",
-        "url": "https://www.digminecraft.com/generators/summon_mob.php"
-      }
-    ]
-  },
-  {
-    "name": "Seed Information",
-    "links": [
-      {
-        "title": "View Link",
-        "url": "https://www.chunkbase.com/apps/"
-      }
-    ]
-  },
-  {
-    "name": "Pixel Circle/Oval Generator",
-    "links": [
-      {
-        "title": "View Link",
-        "url": "https://donatstudios.com/PixelCircleGenerator"
-      }
-    ]
-  },
-  {
-    "name": "Plotz 2D/3D Sphere Generator",
-    "links": [
-      {
-        "title": "View Link",
-        "url": "https://www.plotz.co.uk/plotz-model.php?model=Sphere"
-      }
-    ]
-  },
-  {
-    "name": "Portal Coordinates calculator",
-    "links": [
-      {
-        "title": "View Link",
-        "url": "https://nethercalculator.com/"
-      }
-    ]
-  },
-  {
-    "name": "Crafting Recipe",
-    "links": [
-      {
-        "title": "View Link",
-        "url": "https://www.minecraft-crafting.net/"
-      }
-    ]
-  },
-  {
-    "name": "MCA Selector",
-    "links": [
-      {
-        "title": "View Link",
-        "url": "https://github.com/Querz/mcaselector"
-      }
-    ]
-  },
-  {
-    "name": "NBT Explorer",
-    "links": [
-      {
-        "title": "Download Link",
-        "url": "https://github.com/jaquadro/NBTExplorer/releases/"
-      }
-    ]
-  },
-  {
-    "name": "Name MC",
-    "links": [
-      {
-        "title": "View Link",
-        "url": "https://namemc.com/minecraft-skins"
-      }
-    ]
-  },
-  {
-    "name": "SeedcrackerX",
-    "links": [
-      {
-        "title": "View Link",
-        "url": "https://github.com/19MisterX98/SeedcrackerX"
-      }
-    ]
-  }
-]
+{
+  "additionalLinks": [
+    {
+      "name": "Fabric Installer",
+      "links": [
+        {
+          "title": "Download Link",
+          "url": "https://fabricmc.net/use/"
+        }
+      ]
+    },
+    {
+      "name": "Optifine",
+      "links": [
+        {
+          "title": "Download Link",
+          "url": "https://www.optifine.net/downloads"
+        }
+      ]
+    },
+    {
+      "name": "Server JAR",
+      "links": [
+        {
+          "title": "Download Link",
+          "url": "https://www.minecraft.net/en-us/download/server"
+        }
+      ]
+    },
+    {
+      "name": "Vanilla Tweaks",
+      "links": [
+        {
+          "title": "Resource Packs",
+          "url": "https://vanillatweaks.net/picker/resource-packs/"
+        },
+        {
+          "title": "Data Packs",
+          "url": "https://vanillatweaks.net/picker/datapacks/"
+        },
+        {
+          "title": "Crafting Tweaks",
+          "url": "https://vanillatweaks.net/picker/crafting-tweaks/"
+        }
+      ]
+    },
+    {
+      "name": "Create Mod",
+      "links": [
+        {
+          "title": "View Link",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/create-fabric"
+        }
+      ]
+    },
+    {
+      "name": "Command Generation",
+      "links": [
+        {
+          "title": "Give Armour",
+          "url": "https://www.digminecraft.com/generators/give_armor.php"
+        },
+        {
+          "title": "Give Weapons",
+          "url": "https://www.digminecraft.com/generators/give_weapon.php"
+        },
+        {
+          "title": "Give Tools",
+          "url": "https://www.digminecraft.com/generators/give_tool.php"
+        },
+        {
+          "title": "Summon Mobs",
+          "url": "https://www.digminecraft.com/generators/summon_mob.php"
+        }
+      ]
+    },
+    {
+      "name": "Seed Information",
+      "links": [
+        {
+          "title": "View Link",
+          "url": "https://www.chunkbase.com/apps/"
+        }
+      ]
+    },
+    {
+      "name": "Pixel Circle/Oval Generator",
+      "links": [
+        {
+          "title": "View Link",
+          "url": "https://donatstudios.com/PixelCircleGenerator"
+        }
+      ]
+    },
+    {
+      "name": "Plotz 2D/3D Sphere Generator",
+      "links": [
+        {
+          "title": "View Link",
+          "url": "https://www.plotz.co.uk/plotz-model.php?model=Sphere"
+        }
+      ]
+    },
+    {
+      "name": "Portal Coordinates calculator",
+      "links": [
+        {
+          "title": "View Link",
+          "url": "https://nethercalculator.com/"
+        }
+      ]
+    },
+    {
+      "name": "Crafting Recipe",
+      "links": [
+        {
+          "title": "View Link",
+          "url": "https://www.minecraft-crafting.net/"
+        }
+      ]
+    },
+    {
+      "name": "MCA Selector",
+      "links": [
+        {
+          "title": "View Link",
+          "url": "https://github.com/Querz/mcaselector"
+        }
+      ]
+    },
+    {
+      "name": "NBT Explorer",
+      "links": [
+        {
+          "title": "Download Link",
+          "url": "https://github.com/jaquadro/NBTExplorer/releases/"
+        }
+      ]
+    },
+    {
+      "name": "Name MC",
+      "links": [
+        {
+          "title": "View Link",
+          "url": "https://namemc.com/minecraft-skins"
+        }
+      ]
+    },
+    {
+      "name": "SeedcrackerX",
+      "links": [
+        {
+          "title": "View Link",
+          "url": "https://github.com/19MisterX98/SeedcrackerX"
+        }
+      ]
+    }
+  ]
+}
