@@ -1,0 +1,172 @@
+list_12110 = {
+  "modList": [
+    {
+      "name": "Advancements Enlarger",
+      "version": "1.20.1",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger/files/4594641"
+    },
+    {
+      "name": "Apple Skin",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/appleskin/files/7075567",
+      "ext": "https://modrinth.com/mod/appleskin/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/mod/appleskin/version/3.0.7+mc1.21.9"
+    },
+    {
+      "name": "Better Dropped Items",
+      "version": "1.19.1",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/better-dropped-items/files/3876302"
+    },
+    {
+      "name": "Better F3",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/betterf3/files/7180975"
+    },
+    {
+      "name": "Better Third Person",
+      "version": "1.21.8",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/better-third-person/files/6455829"
+    },
+    {
+      "name": "Block Meter",
+      "version": "1.21.8",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/blockmeterfabric/files/6800969"
+    },
+    {
+      "name": "Click Through Signs",
+      "version": "1.20.4",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/clickthrough/files/4963284"
+    },
+    {
+      "name": "Dynamic FPS",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/dynamic-fps/files/7157074"
+    },
+    {
+      "name": "Dynamic Lights",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/7178370",
+      "ext": "https://modrinth.com/mod/lambdynamiclights/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/mod/lambdynamiclights/version/4.8.6+1.21.10"
+    },
+    {
+      "name": "Easier Village Trading",
+      "version": "1.20.4",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/easiervillagertrading/files/4963302"
+    },
+    {
+      "name": "Fabric API",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/7203251"
+    },
+    {
+      "name": "Grid",
+      "version": "1.20.4",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/grid/files/4963321"
+    },
+    {
+      "name": "Iris Shaders",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/irisshaders/files/7088028",
+      "ext": "https://modrinth.com/mod/iris/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/mod/iris/version/1.9.6+1.21.10-fabric"
+    },
+    {
+      "name": "Just Enough Items (JEI)",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/jei/files/7229081"
+    },
+    {
+      "name": "Litematica",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/litematica/files/7153509",
+      "ext": "https://modrinth.com/mod/litematica/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/mod/litematica/version/0.24.5"
+    },
+    {
+      "name": "Lithium",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/lithium/files/7219262",
+      "ext": "https://modrinth.com/mod/lithium/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/mod/lithium/version/mc1.21.10-0.20.1-fabric"
+    },
+    {
+      "name": "MaLiLib",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/malilib/files/7130809",
+      "ext": "https://modrinth.com/mod/malilib/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/mod/malilib/version/0.26.6"
+    },
+    {
+      "name": "MiniHUD",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/minihud/files/7130843",
+      "ext": "https://modrinth.com/mod/minihud/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/mod/minihud/version/0.37.3"
+    },
+    {
+      "name": "Mod Menu",
+      "version": "1.21.9",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/modmenu/files/7059741",
+      "ext": "https://modrinth.com/mod/modmenu/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/mod/modmenu/version/16.0.0-rc.1"
+    },
+    {
+      "name": "Not Enough Crashes",
+      "version": "1.21.8",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes/files/6966311"
+    },
+    {
+      "name": "Sodium",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/sodium/files/7207593",
+      "ext": "https://modrinth.com/mod/sodium/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/mod/sodium/version/mc1.21.10-0.7.3-fabric"
+    },
+    {
+      "name": "Tweakeroo",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/tweakeroo/files/7130851",
+      "ext": "https://modrinth.com/mod/tweakeroo/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/mod/tweakeroo/version/0.26.3"
+    },
+    {
+      "name": "WorldEdit",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/worldedit/files/7150934",
+      "ext": "https://modrinth.com/plugin/worldedit/versions?g=1.21.10&l=fabric",
+      "extver": "1.21.10",
+      "extlink": "https://modrinth.com/plugin/worldedit/version/7.3.12-beta-02"
+    },
+    {
+      "name": "WorldEdit CUI",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric/files/7214139"
+    },
+  ],
+  "resourcePacks": [
+    {
+      "name": "Enchanted Books",
+      "version": "1.21.5",
+      "link": "https://www.curseforge.com/minecraft/texture-packs/xalis-enchanted-books/files/6365331"
+    },
+  ],
+  "shaderPacks": [
+    {
+      "name": "Complementary Shader",
+      "version": "1.21.10",
+      "link": "https://www.curseforge.com/minecraft/shaders/complementary-unbound/files/7090228"
+    },
+  ],
+  "banner": "banner-12110.jpg"
+}
