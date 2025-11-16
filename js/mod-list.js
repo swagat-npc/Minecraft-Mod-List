@@ -1,14 +1,15 @@
 // --- Helpers for links ---
-const createFileLinks = (slug, fileId) => {
+const createFileLinks = (slug, fileId, minecraftVersion) => {
   const base = `https://www.curseforge.com/minecraft/mc-mods/${slug}`;
+  const listLink = `${base}/files/all?page=1&pageSize=20&version=${minecraftVersion}&gameVersionTypeId=4&showAlphaFiles=hide`;
   const fileLink = `${base}/files/${fileId}`;
   const downloadLink = `${base}/download/${fileId}`;
-  return { fileLink, downloadLink };
+  return { fileLink, listLink, downloadLink };
 };
 
-const createExtLinks = (slug, versionId) => {
+const createExtLinks = (slug, versionId, minecraftVersion) => {
   const base = `https://modrinth.com/mod/${slug}`;
-  const modPage = `${base}/versions`;
+  const modPage = `${base}/versions?g=${minecraftVersion}&l=fabric`;
   const versionPage = `${base}/version/${versionId}`;
   return { modPage, versionPage };
 };
@@ -43,17 +44,17 @@ const manageList = (mods, version) => {
     const versionEl = generateElement("div", "col-4 mod-version", mod.version);
     const linkEl = generateElement("div", "col-4 mod-link");
 
-    const { fileLink, downloadLink } = createFileLinks(mod.slug, mod.cf);
+    const { fileLink, listLink, downloadLink } = createFileLinks(mod.slug, mod.cf, version);
 
-    linkEl.append(generateAnchor("List", fileLink))
+    linkEl.append(generateAnchor("List", listLink))
           .append("<br>")
           .append(generateAnchor("File", fileLink))
           .append("<br>")
           .append(generateAnchor("Download", downloadLink));
 
     if (mod.mrSlug && mod.mrVersion) {
-      const { modPage, versionPage } = createExtLinks(mod.mrSlug, mod.mrVersion);
-      const extLink = generateElement("a", "ext-link", `v${mod.mrVersion}`)
+      const { versionPage } = createExtLinks(mod.mrSlug, mod.mrVersion, version);
+      const extLink = generateElement("a", "ext-link", `v${version}`)
         .attr({ title: "Modrinth Version", target: "_blank", href: versionPage });
       name.append(extLink);
     }
@@ -78,9 +79,9 @@ const generatePacks = (type, packs, version) => {
     const versionEl = generateElement("div", "col-4 mod-version", pack.version);
     const linkEl = generateElement("div", "col-4 mod-link");
 
-    const { fileLink, downloadLink } = createFileLinks(pack.slug, pack.cf);
+    const { listLink, downloadLink } = createFileLinks(pack.slug, pack.cf, version);
 
-    linkEl.append(generateAnchor("List", fileLink))
+    linkEl.append(generateAnchor("List", listLink))
           .append("<br>")
           .append(generateAnchor("Download", downloadLink));
 
