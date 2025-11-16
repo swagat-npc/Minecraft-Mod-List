@@ -30,7 +30,7 @@ const sortByName = (list) => list.sort((a, b) => a.name.localeCompare(b.name));
 
 // --- Main data ---
 let masterData = {};
-const currentVersion = "1.21.5";
+const currentVersion = "1.21.10";
 
 // --- Manage mod list (fabric mods) ---
 const manageList = (mods, version) => {
@@ -180,7 +180,17 @@ $(() => {
 
       const versions = [...new Set(
         masterData.modList.flatMap(mod => mod.files.map(f => f.version))
-      )].sort();
+      )].sort((a, b) => {
+        const pa = a.split('.').map(Number);
+        const pb = b.split('.').map(Number);
+        
+        for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+          const na = pa[i] || 0;
+          const nb = pb[i] || 0;
+          if (na !== nb) return na - nb;
+        }
+        return 0;
+      });
 
       const select = $("#version").empty();
 
